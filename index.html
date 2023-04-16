@@ -1,1 +1,201 @@
-makes my website work on github page.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Prework Study Guide</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Prework Study Guide</h1>
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>HTML is one of the three cornerston language used in web development</li>
+          <li>It is made up of elements which work together to provide content and the basic frame work for all pages on the web.</li>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The !DOCTYPE html declaration tells the browser what document type it should expect when it is opened.</li>
+          <li>metadata is data about our webpage, that the browser uses to effectively serve our webpage to users.</li>
+          <li>The title element defines the title for a website; this element is required and is extrmely important for seo.</li>
+          <li>The style element defines the css styles associated with a website.</li>
+          <li>The base element defines the base URL for a webpage</li>
+          <li>The link element connects an external resources to the HTML document.</li>
+          <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li>The script element embeds client-side scripts in the HTML document.</li>
+          <li>The p element represents a paragraph or block of text.</li>
+          <li>The UL, OL, LI elements represents unordered lists, ordered lists, and list items.</li>
+          <li>The img element contains information about images that are displayed on the webpage.</li>
+          <li>The br element create a line or empty space, between two blocks of content.</li>
+          <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
+          <li>The section elements are semantic elements that define a section in a document that contains thematic content.</li>
+          <li>The a; hyperlink element aka anchor, creates links to the same webpage or other webpages.</li>
+          <li>Commonly used elements: Text elements, image elements, header elements, list elements.</li>
+          <li>common element types used to divide and describe: mata-related elements, content division elements, semantic elements.</li>
+          <li>Declaration are not case-sensitive; HTML elements are case-sensitive.</li>
+          <li>HTML attributes are always defined in the beginning elements, never the closing element.</li>
+          <li>search engine optimization(seo): is the process of improving the ranking of a website in search engines, such as google or bing.</li>
+          <li>The href attribute points to the URL for the link.</li>
+          <li>The src attribute is the most important, because it defines the location of the image.</li>
+          <li>The alt attribute contains a text string that describes the appearance and functionality of the image.</li>
+          <li>It is important to use sematic HTML elements, because they make your HTML easier to read by developers and browser.</li>
+          <li>An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+          <li>The relationship among elements in HTML are called, "parent/child".</li>
+          <li> head vs mata elements: head element is a container for metadata, while meta elements contain information about the page that is used by the browser.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>There are three ways to style a webpage using css</li>
+          <li>Inline css: used by developers to style an element directly in HTML file.</li>
+          <li>Inline styles apply to a specific HTML tag, using a style attribute with a css rule to style a particular page element only.</li>
+          <li>Inline are useful for quick and permanent changes but are less flexible than external and internal style sheets.</li>
+          <li>each inline style must be edited individually whenever you make a design change.</li>
+        </br>
+        <li>Internal style sheet contains css rules for the webpage in the head section of the HTML file.</li>
+        <li>The rules only apply to that page, and you can confiqure css classes and ids, which are used to identify elements.</li>
+        <li>A single change to the css rule will apply to all tagged page elements.</li>
+      </br>
+      <li>The most common way to style a webpage is by using an external css.</li>
+      <li>It allows developers to keep all their css rules in a separate file, which makes design changes easier.</li>
+      <li>When using an external style sheet, we link the file using a link element placed in the HTML's head.</li>
+    </br>
+    <li>separation concerns: separating code into different files based on use. i.e each section of code should have its own responsibility.</li>
+    <li>A margin indicates how much space we want around the outside of an element.</li>
+    <li>A padding indicates how much space we want around the content inside an element.</li>
+    <li>DRY: do not repeat yourself.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git is a version control system that lets you manage and keep track of each version of your project.</li>
+          <li>git is great for tracking changes locally, on your own computer.</li>
+          <li>git-hub is a cloud-base hosting service that allows us to keep track of our projects inside repositories that are stored remotely.</li>
+        </br>
+          <li>Git Setup</li>
+          <li>git config --[firstname lastname]: set a name that is identifiable for credit when review version history.</li>
+          <li>git config --[valid-email]: set an email address that will be associated with each history marker.</li>
+          <li>git config --global color.ui auto: set automatic command line coloring for git, for easy reviewing.</li>
+        </br>
+          <li>Git Setup & Init</li>
+          <li>git init: initialize an existing directory as a git repository.</li>
+          <li>git clone [URL]: retrive an entire repository from a hosted location via URL.</li>
+        </br>
+          <li>Git Stage & Snapshot</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add[file]: add a file as it looks now to your next commit.</li>
+          <li>git reset[file]: un stage a file while retaining the changes in working directory.</li>
+          <li>git diff: diff of what is changed but not staged.</li>
+          <li>git diff --stage: diff of what is staged but not yet committed.</li>
+          <li>git commit -m[descriptive message]: commit your staged content as a now commit snapshot.</li>
+        </br>
+          <li>Git Branch & Merge</li>
+          <li>git branch: list your branches. a* will appear next to the currently active branch.</li>
+          <li>git branch [branch-name]: create a new branch at the current commit.</li>
+          <li>git checkout: switch to another branch and check it out into your working directory.</li>
+          <li>git merge[branch]: merge the specified branch's history into the current one.</li>
+          <li>git log: show all commit in the current branch's history.</li>
+        </br>
+          <li>Git Inspect & Compare</li>
+          <li>git log: show the commit history for the currently active branch.</li>
+          <li>git log branchB..branchA: show the commits on branch A that are not on branchB.</li>
+          <li>git log --follow[file]: show the commits that changed file, even across renames.</li>
+          <li>git diff branchB..branchA: show the diff of what is in branchA that is not in branchB.</li>
+          <li>git show[SHA]: show any object in git in human-readable format.</li>
+        </br>
+          <li>Git Share & Update</li>
+          <li>git remote add[alias] [URL]: adding a git url as an alias.</li>
+          <li>git fetch[alias]: fetch down all the branches from that git remote.</li>
+          <li>git merge[alias]/[branch]: merge a remote branch into your current branch to bring it up to date.</li>
+          <li>git push[alias][branch]: transmit local branch commits to the remote repository branch.</li>
+          <li>git pull: fetch and merge any commits from the tracking remote branch.</li>
+        </br>
+          <li>Git Tracking Path Changes</li>
+          <li>git rm[file]: delete the file from project and stage the removal for commit.</li>
+          <li>git mv [existing-path][new-path]: change an existing file path and stage the move.</li>
+          <li>git log --stat -m: show all commit logs with indication of any paths that move.</li>
+        </br>
+          <li>Git Rewrite History</li>
+          <li>git rebase[branch]: apply any commits of current branch ahead of specified one.</li>
+          <li>git reset --hard[commit]: clear staging area, rewrite working tree from specified commit.</li>
+        </br>
+          <li>Git Ignoring Patterns</li>
+          <li>logs/*.notes pattern*/: save a file with desired patterns as.gitignore with either direct string matches or wildcard globs.</li>
+          <li>git config --global core.excludesfile[file]: system wide ignore pattern for all local repositories.</li>
+        </br>
+          <li>Git Temporary Commits</li>
+          <li>git stash: save modified and staged changes.</li>
+          <li>git stash list: list stack-order of stashed file changes.</li>
+          <li>git stash pop: write working from top of stash stack.</li>
+          <li>git stash drop: discard the changes from top of stash stack.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>what is JavaScript?</li>
+          <li>JavaScript is a powerful programming language that can add interactivity
+            to a website. it was invented by Brendan Eich
+          </li>
+          <li>Browser application programming interfaces(APIS)</li>
+          <li>Variables are containers that store values.</li>
+          <li>JavaScript are case-sensitive.</li>
+          <li>you can declar a variable, and give it a value on the same line.</li>
+          <li>you retrieve the value by calling the varaiable name.</li>
+          <li>note: that variable may hold values that have different data type.</li>
+          <li>comments are snippets of text that can be added along with code.</li>
+          <li>An operator is a mathematical symbol that produces a result based on two values.</li>
+          <li>conditionals are code structures used to test if an expression returns true or not.</li>
+          <li>functions are a way of packaging functionality that you wish to reuse.</li>
+          <li>The BigInt type is a numeric primitive in javascript that can represent integers with arbitrary magnitude.</li>
+          <li>A symbol is a unique and immutable value.</li>
+          <li>an object is a value in memory which is possibly referenced by an identifier.</li>
+          <li>objects can also be seen as a collection of properties.</li>
+          <li>Data property: value, writable, enumerable, confiqurable.</li>
+          <li>Accessor property: get and set.</li>
+          <li>Arrays are reqular objects for which there is a particular relationship
+            between integer-keyed properties and the lenght property.
+          </li>
+          <li>javascript is a powerful programming langauge that can add interactivity to a website. it was invented by Brendan Eich.</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Browser application programming interfaces(APIS).</li>
+          <li>javascript is case sensitive.</li>
+          <li>you can declar a variable and give it a value on the same line.</li>
+          <li>you retrive the value by calling the variable name.</li>
+          <li>note: that variable may hold values that have different data types.</li>
+          <li>comment are snippets of text that can be added along with code.</li>
+          <li>An operator is a mathematical symbol that produce a result based on two values.</li>
+          <li>conditionals are code structures used to test if an expression returns true or not.</li>
+          <li>Funtions are a way of packaging functionality that you wish to reuse.</li>
+          <li>The BigInt type is a numeric primitive in javascript that can represent integers with arbitary magnitude.</li>
+          <li>A symbol is a unique and immutable value.</li>
+          <li>An object is a value in memory which is possibly referenced by an identifier.</li>
+          <li>objects can be seen as a collection of properties.</li>
+          <li>Data property: value, writable, enumerable, confiqurable.</li>
+          <li>Accessor property: get and set.</li>
+          <li>The prototype of an object points to another object or null.</li>
+          <li>Arrays are regular objects for which there is particular relationship between integer-keyed properties and the lenght property.</li>
+          
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
